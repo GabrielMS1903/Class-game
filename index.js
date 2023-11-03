@@ -6,12 +6,12 @@ class char{
     this.formAtaque = formAtaque
     }
  
- 	atack(){
+atack(){
     console.log(` The ${this.formChar} ${this.formType} with ${this.formAge} used ${this.formAtaque} counter your enemy. `)
     let i = 1
 do{
     console.log("The " + this.formChar + " up to the lvl 6 and your " + this.formAtaque + " up to the lvl 4!")
-    i++
+i++
 }while (i < 1)
 if(this.formChar != this.formAtaque){
     console.log("You won this battle. Congragulations!")}
